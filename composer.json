@@ -1,0 +1,20 @@
+{
+    "name": "allen/hello-world",
+    "description": "My first composer project",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Allen",
+            "email": "useralain2@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        }
+    }
+}
